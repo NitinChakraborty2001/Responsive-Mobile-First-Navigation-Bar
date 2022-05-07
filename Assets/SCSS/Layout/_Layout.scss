@@ -1,0 +1,17 @@
+/* Reusable CSS Classes */
+.container {
+	max-width: 1024px;
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
+}
+
+// Section
+.section {
+	padding: 4.5rem 0 1rem;
+
+	// section__height
+	&__height {
+		height: 100vh;
+	}
+	// When inserting your Content into Sections, remove the "section__height" Class!
+}

@@ -1,0 +1,43 @@
+/* Reset */
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* HTML */
+html {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+/* Body */
+body {
+	font-family: var(--body-font);
+	font-size: var(--normal-font-size);
+	color: var(--text-color);
+	overflow-x: hidden;
+}
+
+/* Heading */
+h1,
+h2,
+h3 {
+	color: var(--title-color);
+}
+
+/* Unordered List */
+ul {
+	list-style: none;
+}
+
+/* Anchor Element */
+a {
+	text-decoration: none;
+}
+
+/* Image */
+img {
+	max-width: 100%;
+	height: auto;
+}
